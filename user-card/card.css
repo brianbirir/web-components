@@ -1,0 +1,55 @@
+.clearfix {
+  overflow: auto;
+}
+
+.ui-card {
+  position: relative;
+  border-radius: 1rem;
+  background-color: #ECEDEC;
+  margin: 10px;
+  display: block;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-photo {
+  float: left;
+  margin-right: 30px;
+}
+
+.card-photo img {
+  width: 128px;
+  height: 128px;
+}
+
+.card-info {
+  float: left;
+  clear: right;
+}
+
+.card-footer {
+  border-radius: 0 0 1rem 1rem;
+  padding: 10px;
+  background-color: #16a085;
+}
+
+.modal-footer {
+  background-color: #16a085;
+}
+
+.card-footer button {
+  float: right;
+}
+
+.btn-profile {
+  color: #fef4e9;
+  border: solid 1px #da7c0c;
+  background: #f78d1d;
+  background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+  background: -moz-linear-gradient(top, #faa51a, #f47a20);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+
+.modal-header {}

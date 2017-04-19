@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Card</title>
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
+      <link rel="stylesheet" type="text/css" href="card.css"></script>
+      <script src="card.js" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="ui-card">
+        <div class="card-content clearfix">
+
+          <div class="card-photo">
+            <img class="img-responsive" src="https://freeiconshop.com/wp-content/uploads/edd/person-flat.png">
+          </div>
+
+          <div class="card-info">
+            <div class="card-title">
+              <h2>Calvin Wohlert</h2>
+            </div>
+            <div class="content">
+              <p>Waste Hub co-founder and CEO</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer clearfix">
+          <button class="btn btn-default btn-profile" data-toggle="modal" data-target="#profileModal">View Info</button>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Calvin Wohlert</h4>
+            </div>
+            <div class="modal-body">
+              Over the course of 15 years providing energy services to industrial companies, Waste Hub co-founder and CEO Calvin Wohlert saw his clients paying millions of dollars to dispose of tens of thousands of tons of valuable material. Calvin is an inventive
+              engineer and saw economic, environmental, and societal opportunity being squandered. He wanted to take the material and turn it into compost, or energy, or grind it, or do any number of things to transform the material into something that other
+              companies, even in other industries, would use. He founded Waste Hub to do just that and recruited an enterprising young professional with expertise in operations management to join him.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default btn-profile" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+          <p>&copy; BRCK Ltd 2017</p>
+      </footer>
+    </div>
+
+  </body>
+</html>
